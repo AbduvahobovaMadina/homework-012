@@ -1,0 +1,47 @@
+.category{
+    margin-top: 50px;
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 40px;
+    }
+    &__card{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .text__sm{
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(107, 107, 108, 1);
+    
+        }
+        .text__md{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+@media (max-width:600px) {
+    .category{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        &__card{
+            width: 100%;
+        }
+    }
+}

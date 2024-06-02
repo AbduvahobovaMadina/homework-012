@@ -1,0 +1,15 @@
+@import "reset";
+@import "variable";
+
+body{
+    min-height: 400vh;
+}
+
+@import "block/header";
+@import "block/hero";
+@import "block/product";
+@import "block/truck";
+@import "block/category";
+@import "block/work";
+@import "block/table";
+@import  "block/stends";
